@@ -40,7 +40,6 @@ github "chrome",	"1.1.0"
 github "adobe_reader",	"1.0.1"
 github "iterm2",	"1.0.2"
 github "java",		"1.0.6"
-github "osx",		"1.0.0"
 github "better_touch_tools",	"1.0.0"
 
 

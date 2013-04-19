@@ -93,6 +93,5 @@ node default {
  include adobe_reader
  include iterm2::stable
  include java
- include osx
  include better_touch_tools
 }

@@ -57,9 +57,9 @@ node default {
   include nvm
 
   # fail if FDE is not enabled
-  if $::root_encrypted == 'no' {
-    fail('Please enable full disk encryption and try again')
-  }
+#  if $::root_encrypted == 'no' {
+#    fail('Please enable full disk encryption and try again')
+#  }
 
   # node versions
   include nodejs::0-4
@@ -85,4 +85,14 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+ include cord
+ include caffeine
+ include firefox
+ include chrome
+ include adobe_reader
+ include iterm2::stable
+ include java
+ include osx
+ include better_touch_tools
 }

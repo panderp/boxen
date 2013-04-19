@@ -31,5 +31,21 @@ github "ruby",     "3.1.0"
 github "stdlib",   "3.0.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",     "1.0.0"
 
-# Optional/custom modules. There are tons available at
-# https://github.com/boxen.
+# Additions for all machines here
+
+github "cord",		"1.0.0"
+github "caffeine",	"1.0.0"
+github "firefox",	"1.0.5"
+github "chrome",	"1.1.0"
+github "adobe_reader",	"1.0.1"
+github "iterm2",	"1.0.2"
+github "java",		"1.0.6"
+github "osx",		"1.0.0"
+github "better-touch-tools",	"1.0.0"
+
+
+# Additions for developers
+
+#github "eclipse",	"1.0.1"
+#github "mysql",		"1.1.0"
+
